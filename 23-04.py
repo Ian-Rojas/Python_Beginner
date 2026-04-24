@@ -18,10 +18,8 @@
 #     print("Su nombre de usuario no esta en el rango preestablecido")
 
 # 3.- Ejercicio
-
-# num = int(input("Cree un pin: "))
-
-# if len(str(num))==4:
-#     print("Su contraseña pin ha sido creada.")
-# else:
-#     print("Su contraseña supera el rango establecido")
+num = int(input("Cree un pin: "))
+if len(str(num))==4:
+        print("Su contraseña pin ha sido creada.")
+else:
+        print("Su contraseña supera el rango establecido")
